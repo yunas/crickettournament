@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B614E1551980720F00E519E5 /* TournamentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B614E1541980720F00E519E5 /* TournamentViewController.m */; };
+		B614E1581980769400E519E5 /* MatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B614E1571980769400E519E5 /* MatchViewController.m */; };
+		B62883161978EF38003DC6E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62883151978EF38003DC6E1 /* Foundation.framework */; };
+		B62883181978EF38003DC6E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62883171978EF38003DC6E1 /* CoreGraphics.framework */; };
+		B628831A1978EF38003DC6E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62883191978EF38003DC6E1 /* UIKit.framework */; };
+		B62883201978EF38003DC6E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B628831E1978EF38003DC6E1 /* InfoPlist.strings */; };
+		B62883221978EF38003DC6E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B62883211978EF38003DC6E1 /* main.m */; };
+		B62883261978EF38003DC6E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B62883251978EF38003DC6E1 /* AppDelegate.m */; };
+		B62883291978EF38003DC6E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62883271978EF38003DC6E1 /* Main.storyboard */; };
+		B628832C1978EF38003DC6E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B628832B1978EF38003DC6E1 /* ViewController.m */; };
+		B628832E1978EF38003DC6E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B628832D1978EF38003DC6E1 /* Images.xcassets */; };
+		B62883351978EF38003DC6E1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62883341978EF38003DC6E1 /* XCTest.framework */; };
+		B62883361978EF38003DC6E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62883151978EF38003DC6E1 /* Foundation.framework */; };
+		B62883371978EF38003DC6E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62883191978EF38003DC6E1 /* UIKit.framework */; };
+		B628833F1978EF38003DC6E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B628833D1978EF38003DC6E1 /* InfoPlist.strings */; };
+		B62883411978EF38003DC6E1 /* CricketTournamentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B62883401978EF38003DC6E1 /* CricketTournamentTests.m */; };
+		B628834C1978EFF1003DC6E1 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = B628834B1978EFF1003DC6E1 /* Player.m */; };
+		B628834F1978F214003DC6E1 /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = B628834E1978F214003DC6E1 /* Team.m */; };
+		B62883521978F419003DC6E1 /* Tournament.m in Sources */ = {isa = PBXBuildFile; fileRef = B62883511978F419003DC6E1 /* Tournament.m */; };
+		B62883551978F86B003DC6E1 /* Match.m in Sources */ = {isa = PBXBuildFile; fileRef = B62883541978F86B003DC6E1 /* Match.m */; };
+		B62883581978FB17003DC6E1 /* Ground.m in Sources */ = {isa = PBXBuildFile; fileRef = B62883571978FB17003DC6E1 /* Ground.m */; };
+		B628835B1978FC6D003DC6E1 /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = B628835A1978FC6D003DC6E1 /* Group.m */; };
+		B628835D197921D9003DC6E1 /* TeamIndia.plist in Resources */ = {isa = PBXBuildFile; fileRef = B628835C197921D9003DC6E1 /* TeamIndia.plist */; };
+		B628835F19792500003DC6E1 /* TeamPakistan.plist in Resources */ = {isa = PBXBuildFile; fileRef = B628835E19792500003DC6E1 /* TeamPakistan.plist */; };
+		B628836119794CCD003DC6E1 /* TeamSrilanka.plist in Resources */ = {isa = PBXBuildFile; fileRef = B628836019794CCD003DC6E1 /* TeamSrilanka.plist */; };
+		B628836319794E33003DC6E1 /* TeamBangladesh.plist in Resources */ = {isa = PBXBuildFile; fileRef = B628836219794E33003DC6E1 /* TeamBangladesh.plist */; };
+		B628836519794FE2003DC6E1 /* TeamAfghanistan.plist in Resources */ = {isa = PBXBuildFile; fileRef = B628836419794FE2003DC6E1 /* TeamAfghanistan.plist */; };
+		B645F3DF197C722000D218FD /* PakvsInd.plist in Resources */ = {isa = PBXBuildFile; fileRef = B645F3DE197C722000D218FD /* PakvsInd.plist */; };
+		B65245D21980D97000482624 /* CreatTeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65245D11980D97000482624 /* CreatTeamViewController.m */; };
+		B65245D51980DCE400482624 /* CreatePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65245D41980DCE400482624 /* CreatePlayerViewController.m */; };
+		B6760002197CE41900B44D64 /* PakvsSri.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6760001197CE41900B44D64 /* PakvsSri.plist */; };
+		B6760004197CE42800B44D64 /* IndvsSri.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6760003197CE42800B44D64 /* IndvsSri.plist */; };
+		B6760007197CF50100B44D64 /* Over.m in Sources */ = {isa = PBXBuildFile; fileRef = B6760006197CF50100B44D64 /* Over.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B62883381978EF38003DC6E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B628830A1978EF38003DC6E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B62883111978EF38003DC6E1;
+			remoteInfo = CricketTournament;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B614E1531980720F00E519E5 /* TournamentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TournamentViewController.h; sourceTree = "<group>"; };
+		B614E1541980720F00E519E5 /* TournamentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TournamentViewController.m; sourceTree = "<group>"; };
+		B614E1561980769400E519E5 /* MatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchViewController.h; sourceTree = "<group>"; };
+		B614E1571980769400E519E5 /* MatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchViewController.m; sourceTree = "<group>"; };
+		B62883121978EF38003DC6E1 /* CricketTournament.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CricketTournament.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62883151978EF38003DC6E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B62883171978EF38003DC6E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B62883191978EF38003DC6E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B628831D1978EF38003DC6E1 /* CricketTournament-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CricketTournament-Info.plist"; sourceTree = "<group>"; };
+		B628831F1978EF38003DC6E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B62883211978EF38003DC6E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B62883231978EF38003DC6E1 /* CricketTournament-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CricketTournament-Prefix.pch"; sourceTree = "<group>"; };
+		B62883241978EF38003DC6E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B62883251978EF38003DC6E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B62883281978EF38003DC6E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B628832A1978EF38003DC6E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B628832B1978EF38003DC6E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B628832D1978EF38003DC6E1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B62883331978EF38003DC6E1 /* CricketTournamentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CricketTournamentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62883341978EF38003DC6E1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B628833C1978EF38003DC6E1 /* CricketTournamentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CricketTournamentTests-Info.plist"; sourceTree = "<group>"; };
+		B628833E1978EF38003DC6E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B62883401978EF38003DC6E1 /* CricketTournamentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CricketTournamentTests.m; sourceTree = "<group>"; };
+		B628834A1978EFF1003DC6E1 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		B628834B1978EFF1003DC6E1 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		B628834D1978F214003DC6E1 /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Team.h; sourceTree = "<group>"; };
+		B628834E1978F214003DC6E1 /* Team.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Team.m; sourceTree = "<group>"; };
+		B62883501978F419003DC6E1 /* Tournament.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tournament.h; sourceTree = "<group>"; };
+		B62883511978F419003DC6E1 /* Tournament.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tournament.m; sourceTree = "<group>"; };
+		B62883531978F86B003DC6E1 /* Match.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Match.h; sourceTree = "<group>"; };
+		B62883541978F86B003DC6E1 /* Match.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Match.m; sourceTree = "<group>"; };
+		B62883561978FB16003DC6E1 /* Ground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ground.h; sourceTree = "<group>"; };
+		B62883571978FB17003DC6E1 /* Ground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ground.m; sourceTree = "<group>"; };
+		B62883591978FC6D003DC6E1 /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
+		B628835A1978FC6D003DC6E1 /* Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Group.m; sourceTree = "<group>"; };
+		B628835C197921D9003DC6E1 /* TeamIndia.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TeamIndia.plist; sourceTree = "<group>"; };
+		B628835E19792500003DC6E1 /* TeamPakistan.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TeamPakistan.plist; sourceTree = "<group>"; };
+		B628836019794CCD003DC6E1 /* TeamSrilanka.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TeamSrilanka.plist; sourceTree = "<group>"; };
+		B628836219794E33003DC6E1 /* TeamBangladesh.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TeamBangladesh.plist; sourceTree = "<group>"; };
+		B628836419794FE2003DC6E1 /* TeamAfghanistan.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TeamAfghanistan.plist; sourceTree = "<group>"; };
+		B645F3DE197C722000D218FD /* PakvsInd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PakvsInd.plist; sourceTree = "<group>"; };
+		B65245D01980D97000482624 /* CreatTeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatTeamViewController.h; sourceTree = "<group>"; };
+		B65245D11980D97000482624 /* CreatTeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatTeamViewController.m; sourceTree = "<group>"; };
+		B65245D31980DCE400482624 /* CreatePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatePlayerViewController.h; sourceTree = "<group>"; };
+		B65245D41980DCE400482624 /* CreatePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatePlayerViewController.m; sourceTree = "<group>"; };
+		B6760001197CE41900B44D64 /* PakvsSri.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PakvsSri.plist; sourceTree = "<group>"; };
+		B6760003197CE42800B44D64 /* IndvsSri.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = IndvsSri.plist; sourceTree = "<group>"; };
+		B6760005197CF50100B44D64 /* Over.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Over.h; sourceTree = "<group>"; };
+		B6760006197CF50100B44D64 /* Over.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Over.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B628830F1978EF38003DC6E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62883181978EF38003DC6E1 /* CoreGraphics.framework in Frameworks */,
+				B628831A1978EF38003DC6E1 /* UIKit.framework in Frameworks */,
+				B62883161978EF38003DC6E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62883301978EF38003DC6E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62883351978EF38003DC6E1 /* XCTest.framework in Frameworks */,
+				B62883371978EF38003DC6E1 /* UIKit.framework in Frameworks */,
+				B62883361978EF38003DC6E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B62883091978EF38003DC6E1 = {
+			isa = PBXGroup;
+			children = (
+				B65245D31980DCE400482624 /* CreatePlayerViewController.h */,
+				B65245D41980DCE400482624 /* CreatePlayerViewController.m */,
+				B65245D01980D97000482624 /* CreatTeamViewController.h */,
+				B65245D11980D97000482624 /* CreatTeamViewController.m */,
+				B614E1561980769400E519E5 /* MatchViewController.h */,
+				B614E1571980769400E519E5 /* MatchViewController.m */,
+				B614E1531980720F00E519E5 /* TournamentViewController.h */,
+				B614E1541980720F00E519E5 /* TournamentViewController.m */,
+				B6760005197CF50100B44D64 /* Over.h */,
+				B6760006197CF50100B44D64 /* Over.m */,
+				B6760003197CE42800B44D64 /* IndvsSri.plist */,
+				B6760001197CE41900B44D64 /* PakvsSri.plist */,
+				B645F3DE197C722000D218FD /* PakvsInd.plist */,
+				B628836419794FE2003DC6E1 /* TeamAfghanistan.plist */,
+				B628836219794E33003DC6E1 /* TeamBangladesh.plist */,
+				B628836019794CCD003DC6E1 /* TeamSrilanka.plist */,
+				B628835E19792500003DC6E1 /* TeamPakistan.plist */,
+				B628835C197921D9003DC6E1 /* TeamIndia.plist */,
+				B62883591978FC6D003DC6E1 /* Group.h */,
+				B628835A1978FC6D003DC6E1 /* Group.m */,
+				B62883561978FB16003DC6E1 /* Ground.h */,
+				B62883571978FB17003DC6E1 /* Ground.m */,
+				B62883531978F86B003DC6E1 /* Match.h */,
+				B62883541978F86B003DC6E1 /* Match.m */,
+				B62883501978F419003DC6E1 /* Tournament.h */,
+				B62883511978F419003DC6E1 /* Tournament.m */,
+				B628834D1978F214003DC6E1 /* Team.h */,
+				B628834E1978F214003DC6E1 /* Team.m */,
+				B628834A1978EFF1003DC6E1 /* Player.h */,
+				B628834B1978EFF1003DC6E1 /* Player.m */,
+				B628831B1978EF38003DC6E1 /* CricketTournament */,
+				B628833A1978EF38003DC6E1 /* CricketTournamentTests */,
+				B62883141978EF38003DC6E1 /* Frameworks */,
+				B62883131978EF38003DC6E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B62883131978EF38003DC6E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B62883121978EF38003DC6E1 /* CricketTournament.app */,
+				B62883331978EF38003DC6E1 /* CricketTournamentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B62883141978EF38003DC6E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B62883151978EF38003DC6E1 /* Foundation.framework */,
+				B62883171978EF38003DC6E1 /* CoreGraphics.framework */,
+				B62883191978EF38003DC6E1 /* UIKit.framework */,
+				B62883341978EF38003DC6E1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B628831B1978EF38003DC6E1 /* CricketTournament */ = {
+			isa = PBXGroup;
+			children = (
+				B62883241978EF38003DC6E1 /* AppDelegate.h */,
+				B62883251978EF38003DC6E1 /* AppDelegate.m */,
+				B62883271978EF38003DC6E1 /* Main.storyboard */,
+				B628832A1978EF38003DC6E1 /* ViewController.h */,
+				B628832B1978EF38003DC6E1 /* ViewController.m */,
+				B628832D1978EF38003DC6E1 /* Images.xcassets */,
+				B628831C1978EF38003DC6E1 /* Supporting Files */,
+			);
+			path = CricketTournament;
+			sourceTree = "<group>";
+		};
+		B628831C1978EF38003DC6E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B628831D1978EF38003DC6E1 /* CricketTournament-Info.plist */,
+				B628831E1978EF38003DC6E1 /* InfoPlist.strings */,
+				B62883211978EF38003DC6E1 /* main.m */,
+				B62883231978EF38003DC6E1 /* CricketTournament-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B628833A1978EF38003DC6E1 /* CricketTournamentTests */ = {
+			isa = PBXGroup;
+			children = (
+				B62883401978EF38003DC6E1 /* CricketTournamentTests.m */,
+				B628833B1978EF38003DC6E1 /* Supporting Files */,
+			);
+			path = CricketTournamentTests;
+			sourceTree = "<group>";
+		};
+		B628833B1978EF38003DC6E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B628833C1978EF38003DC6E1 /* CricketTournamentTests-Info.plist */,
+				B628833D1978EF38003DC6E1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B62883111978EF38003DC6E1 /* CricketTournament */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B62883441978EF38003DC6E1 /* Build configuration list for PBXNativeTarget "CricketTournament" */;
+			buildPhases = (
+				B628830E1978EF38003DC6E1 /* Sources */,
+				B628830F1978EF38003DC6E1 /* Frameworks */,
+				B62883101978EF38003DC6E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CricketTournament;
+			productName = CricketTournament;
+			productReference = B62883121978EF38003DC6E1 /* CricketTournament.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B62883321978EF38003DC6E1 /* CricketTournamentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B62883471978EF38003DC6E1 /* Build configuration list for PBXNativeTarget "CricketTournamentTests" */;
+			buildPhases = (
+				B628832F1978EF38003DC6E1 /* Sources */,
+				B62883301978EF38003DC6E1 /* Frameworks */,
+				B62883311978EF38003DC6E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B62883391978EF38003DC6E1 /* PBXTargetDependency */,
+			);
+			name = CricketTournamentTests;
+			productName = CricketTournamentTests;
+			productReference = B62883331978EF38003DC6E1 /* CricketTournamentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B628830A1978EF38003DC6E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = xyz;
+				TargetAttributes = {
+					B62883321978EF38003DC6E1 = {
+						TestTargetID = B62883111978EF38003DC6E1;
+					};
+				};
+			};
+			buildConfigurationList = B628830D1978EF38003DC6E1 /* Build configuration list for PBXProject "CricketTournament" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B62883091978EF38003DC6E1;
+			productRefGroup = B62883131978EF38003DC6E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B62883111978EF38003DC6E1 /* CricketTournament */,
+				B62883321978EF38003DC6E1 /* CricketTournamentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B62883101978EF38003DC6E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B628836319794E33003DC6E1 /* TeamBangladesh.plist in Resources */,
+				B628832E1978EF38003DC6E1 /* Images.xcassets in Resources */,
+				B628836519794FE2003DC6E1 /* TeamAfghanistan.plist in Resources */,
+				B628835F19792500003DC6E1 /* TeamPakistan.plist in Resources */,
+				B6760004197CE42800B44D64 /* IndvsSri.plist in Resources */,
+				B628836119794CCD003DC6E1 /* TeamSrilanka.plist in Resources */,
+				B62883201978EF38003DC6E1 /* InfoPlist.strings in Resources */,
+				B62883291978EF38003DC6E1 /* Main.storyboard in Resources */,
+				B6760002197CE41900B44D64 /* PakvsSri.plist in Resources */,
+				B645F3DF197C722000D218FD /* PakvsInd.plist in Resources */,
+				B628835D197921D9003DC6E1 /* TeamIndia.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62883311978EF38003DC6E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B628833F1978EF38003DC6E1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B628830E1978EF38003DC6E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B628834F1978F214003DC6E1 /* Team.m in Sources */,
+				B65245D51980DCE400482624 /* CreatePlayerViewController.m in Sources */,
+				B62883581978FB17003DC6E1 /* Ground.m in Sources */,
+				B628834C1978EFF1003DC6E1 /* Player.m in Sources */,
+				B62883551978F86B003DC6E1 /* Match.m in Sources */,
+				B628832C1978EF38003DC6E1 /* ViewController.m in Sources */,
+				B6760007197CF50100B44D64 /* Over.m in Sources */,
+				B614E1551980720F00E519E5 /* TournamentViewController.m in Sources */,
+				B65245D21980D97000482624 /* CreatTeamViewController.m in Sources */,
+				B628835B1978FC6D003DC6E1 /* Group.m in Sources */,
+				B614E1581980769400E519E5 /* MatchViewController.m in Sources */,
+				B62883261978EF38003DC6E1 /* AppDelegate.m in Sources */,
+				B62883521978F419003DC6E1 /* Tournament.m in Sources */,
+				B62883221978EF38003DC6E1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B628832F1978EF38003DC6E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62883411978EF38003DC6E1 /* CricketTournamentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B62883391978EF38003DC6E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B62883111978EF38003DC6E1 /* CricketTournament */;
+			targetProxy = B62883381978EF38003DC6E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B628831E1978EF38003DC6E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B628831F1978EF38003DC6E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B62883271978EF38003DC6E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B62883281978EF38003DC6E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B628833D1978EF38003DC6E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B628833E1978EF38003DC6E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B62883421978EF38003DC6E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B62883431978EF38003DC6E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B62883451978EF38003DC6E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CricketTournament/CricketTournament-Prefix.pch";
+				INFOPLIST_FILE = "CricketTournament/CricketTournament-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B62883461978EF38003DC6E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CricketTournament/CricketTournament-Prefix.pch";
+				INFOPLIST_FILE = "CricketTournament/CricketTournament-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B62883481978EF38003DC6E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CricketTournament.app/CricketTournament";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CricketTournament/CricketTournament-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CricketTournamentTests/CricketTournamentTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B62883491978EF38003DC6E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CricketTournament.app/CricketTournament";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CricketTournament/CricketTournament-Prefix.pch";
+				INFOPLIST_FILE = "CricketTournamentTests/CricketTournamentTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B628830D1978EF38003DC6E1 /* Build configuration list for PBXProject "CricketTournament" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62883421978EF38003DC6E1 /* Debug */,
+				B62883431978EF38003DC6E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B62883441978EF38003DC6E1 /* Build configuration list for PBXNativeTarget "CricketTournament" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62883451978EF38003DC6E1 /* Debug */,
+				B62883461978EF38003DC6E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B62883471978EF38003DC6E1 /* Build configuration list for PBXNativeTarget "CricketTournamentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62883481978EF38003DC6E1 /* Debug */,
+				B62883491978EF38003DC6E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B628830A1978EF38003DC6E1 /* Project object */;
+}

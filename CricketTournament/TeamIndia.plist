@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Man in blue</string>
+		<key>Region</key>
+		<string>India</string>
+		<key>players</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Shekar Dhawan </string>
+				<key>age</key>
+				<integer>21</integer>
+				<key>highScore</key>
+				<integer>87</integer>
+				<key>average</key>
+				<real>43.2</real>
+				<key>strikeRate</key>
+				<real>102.7</real>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Rohit Sharma</string>
+				<key>age</key>
+				<integer>23</integer>
+				<key>highScore</key>
+				<integer>90</integer>
+				<key>average</key>
+				<real>42.1</real>
+				<key>strikeRate</key>
+				<real>107.2</real>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Virat Kohli</string>
+				<key>age</key>
+				<integer>21</integer>
+				<key>highScore</key>
+				<integer>56</integer>
+				<key>average</key>
+				<real>32.5</real>
+				<key>strikeRate</key>
+				<real>101.6</real>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Suresh Raina</string>
+				<key>age</key>
+				<integer>21</integer>
+				<key>highScore</key>
+				<integer>98</integer>
+				<key>average</key>
+				<real>45.6</real>
+				<key>strikeRate</key>
+				<real>109.3</real>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Yuvraj Singh</string>
+				<key>age</key>
+				<integer>23</integer>
+				<key>highScore</key>
+				<integer>90</integer>
+				<key>average</key>
+				<real>44.67</real>
+				<key>strikeRate</key>
+				<real>102.2</real>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Ms Dhoni</string>
+				<key>age</key>
+				<integer>21</integer>
+				<key>highScore</key>
+				<integer>45</integer>
+				<key>average</key>
+				<real>32.1</real>
+				<key>strikeRate</key>
+				<real>122.3</real>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Ravindra Jadeja</string>
+				<key>age</key>
+				<integer>21</integer>
+				<key>highScore</key>
+				<integer>67</integer>
+				<key>average</key>
+				<real>34.9</real>
+				<key>strikeRate</key>
+				<real>105.4</real>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Ravichandran Ashwin</string>
+				<key>age</key>
+				<integer>21</integer>
+				<key>highScore</key>
+				<integer>88</integer>
+				<key>average</key>
+				<real>32.1</real>
+				<key>strikeRate</key>
+				<real>97.09999999999999</real>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Mohammad Shami</string>
+				<key>age</key>
+				<integer>21</integer>
+				<key>highScore</key>
+				<integer>32</integer>
+				<key>average</key>
+				<real>21.1</real>
+				<key>strikeRate</key>
+				<real>80.2</real>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>bhuvneshwar kumar</string>
+				<key>age</key>
+				<integer>21</integer>
+				<key>highScore</key>
+				<integer>12</integer>
+				<key>average</key>
+				<real>9.1</real>
+				<key>strikeRate</key>
+				<real>60.2</real>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Ashok Dinda</string>
+				<key>age</key>
+				<integer>21</integer>
+				<key>highScore</key>
+				<integer>21</integer>
+				<key>average</key>
+				<real>12.1</real>
+				<key>strikeRate</key>
+				<real>56.1</real>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

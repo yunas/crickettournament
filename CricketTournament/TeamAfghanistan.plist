@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Pathan&apos;s Power</string>
+		<key>region</key>
+		<string>Afghanistan</string>
+		<key>players</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Noor Ali Zardan</string>
+				<key>age</key>
+				<integer>21</integer>
+				<key>highScore</key>
+				<integer>87</integer>
+				<key>average</key>
+				<real>43.2</real>
+				<key>strikeRate</key>
+				<real>102.7</real>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Usman Ghani</string>
+				<key>age</key>
+				<integer>23</integer>
+				<key>highScore</key>
+				<integer>90</integer>
+				<key>average</key>
+				<real>42.1</real>
+				<key>strikeRate</key>
+				<real>107.2</real>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Asghar Stanikzai</string>
+				<key>age</key>
+				<integer>21</integer>
+				<key>highScore</key>
+				<integer>56</integer>
+				<key>average</key>
+				<real>32.5</real>
+				<key>strikeRate</key>
+				<real>101.6</real>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Hashmatullah Shaidi</string>
+				<key>age</key>
+				<integer>21</integer>
+				<key>highScore</key>
+				<integer>98</integer>
+				<key>average</key>
+				<real>45.6</real>
+				<key>strikeRate</key>
+				<real>109.3</real>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Samiullah Shenwari</string>
+				<key>age</key>
+				<integer>23</integer>
+				<key>highScore</key>
+				<integer>90</integer>
+				<key>average</key>
+				<real>44.67</real>
+				<key>strikeRate</key>
+				<real>102.2</real>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Mohammad Nabi</string>
+				<key>age</key>
+				<integer>21</integer>
+				<key>highScore</key>
+				<integer>45</integer>
+				<key>average</key>
+				<real>32.1</real>
+				<key>strikeRate</key>
+				<real>122.3</real>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Shafiqullah</string>
+				<key>age</key>
+				<integer>21</integer>
+				<key>highScore</key>
+				<integer>67</integer>
+				<key>average</key>
+				<real>34.9</real>
+				<key>strikeRate</key>
+				<real>105.4</real>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Mirwais Ashraf</string>
+				<key>age</key>
+				<integer>21</integer>
+				<key>highScore</key>
+				<integer>88</integer>
+				<key>average</key>
+				<real>32.1</real>
+				<key>strikeRate</key>
+				<real>97.09999999999999</real>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Sharafuddin Ashraf</string>
+				<key>age</key>
+				<integer>21</integer>
+				<key>highScore</key>
+				<integer>32</integer>
+				<key>average</key>
+				<real>21.1</real>
+				<key>strikeRate</key>
+				<real>80.2</real>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Dawlat Zadran</string>
+				<key>age</key>
+				<integer>21</integer>
+				<key>highScore</key>
+				<integer>12</integer>
+				<key>average</key>
+				<real>9.1</real>
+				<key>strikeRate</key>
+				<real>60.2</real>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Shapoor Zadran</string>
+				<key>age</key>
+				<integer>21</integer>
+				<key>highScore</key>
+				<integer>21</integer>
+				<key>average</key>
+				<real>12.1</real>
+				<key>strikeRate</key>
+				<real>56.1</real>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>
