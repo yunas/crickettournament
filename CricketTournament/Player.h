@@ -14,7 +14,7 @@
 @property (nonatomic) NSNumber *highestScore;
 @property (nonatomic) NSNumber *strikeRate;
 @property (nonatomic) NSNumber *average;
-@property (nonatomic) UIImage *playerImage;
+@property (nonatomic) UIImage *Image;
 
 
 -(BOOL)canBat;

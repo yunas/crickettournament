@@ -12,10 +12,16 @@
 -(void)addedPlayer:(Player*)newPlayer;
 @end
 @interface CreatePlayerViewController : UIViewController
-
+<UINavigationBarDelegate,UIImagePickerControllerDelegate>
+{
+    UIImagePickerController *imagePicker;
+}
 @property (weak, nonatomic) IBOutlet UITextField *tfNamePlayer;
 @property (weak, nonatomic) IBOutlet UITextField *tfAgePlayer;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (weak, nonatomic) IBOutlet UITextField *tfHighScorePlayer;
+- (IBAction)btnChooseImage:(id)sender;
+- (IBAction)btnSavePlayer:(id)sender;
 @property (nonatomic,weak)id <createPlayerDelegate> playerDelegate;
 @end
 
