@@ -9,12 +9,12 @@
 #import <Foundation/Foundation.h>
 
 @interface Player : NSObject
-@property (nonatomic)NSString *name;
-@property(nonatomic)NSNumber *age;
+@property (nonatomic) NSString *name;
+@property (nonatomic) NSNumber *age;
 @property (nonatomic) NSNumber *highestScore;
 @property (nonatomic) NSNumber *strikeRate;
 @property (nonatomic) NSNumber *average;
-@property (nonatomic) UIImage *Image;
+@property (nonatomic) UIImage  *playerImage;
 
 
 -(BOOL)canBat;

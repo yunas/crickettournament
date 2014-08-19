@@ -14,25 +14,25 @@
 {
     Ground *ground;
 }
-@property (nonatomic)NSString *teamOne;
-@property (nonatomic)NSString *teamTwo;
-@property (nonatomic)NSString *teamBatFirst;
-@property (nonatomic)NSString *teamBatSecond;
-@property (nonatomic)NSString *matchVenue;
-@property (nonatomic)NSNumber *matchTime;
+@property (nonatomic) NSString *teamOne;
+@property (nonatomic) NSString *teamTwo;
+@property (nonatomic) NSString *teamBatFirst;
+@property (nonatomic) NSString *teamBatSecond;
+@property (nonatomic) NSString *matchVenue;
+@property (nonatomic) NSNumber *matchTime;
 @property (nonatomic) NSNumber *scoreTeam1;
 @property (nonatomic) NSNumber *scoreTeam2;
 @property (nonatomic) NSNumber *noOfBoundariesTeam1;
 @property (nonatomic) NSNumber *noOfBoundariesTeam2;
-@property (nonatomic) Player *manOfTheMatch;
-@property (nonatomic) char hasStarted;
+@property (nonatomic) Player   *manOfTheMatch;
+@property (nonatomic) char     hasStarted;
 @property (nonatomic) NSString *teamWon;
 @property (nonatomic) NSNumber *defaultTimePerOver;
 @property (nonatomic) NSNumber *timeForOneInning;
 @property (nonatomic) NSNumber *inningsBreakTime;
-@property (nonatomic) NSDate *startTime;
-@property (nonatomic) NSDate *secondBattingStartTime;
-@property (nonatomic) NSDate *nextMatchWillStartAt;
+@property (nonatomic) NSDate   *startTime;
+@property (nonatomic) NSDate   *secondBattingStartTime;
+@property (nonatomic) NSDate   *nextMatchWillStartAt;
 @property (nonatomic) NSNumber *totalOvers;
 @property (nonatomic) NSNumber *interval;
 @property (nonatomic) NSString *tossWinner;
